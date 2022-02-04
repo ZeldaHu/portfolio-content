@@ -12,7 +12,6 @@ h1{
 	font-weight: bold;
 }
 
-
 .active{
 	background: white;
     text-transform: uppercase;
@@ -28,10 +27,16 @@ img{
     height: 150px;
     width: 200px;
     padding: 5px;
+	border: #ff9900;
+	border-width: 3px;
     border-radius: 10px;
     margin: 10px;
 	display: inline-block;
 }
+
+img:hover {
+	color: rgb(21, 255, 0);
+  }
 
 /*Make the h2 heading match h1*/
 h2{
@@ -60,6 +65,8 @@ nav li{
 	width:25%;
 	display: inline-block;
 	width: 20%;
+	text-align:center;
+	
 }
 .me{
 	width:200px;
